@@ -1,0 +1,44 @@
+.Navbar {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    flex-wrap: wrap;
+    color: white;
+    line-height: 3px;
+    position: relative;
+    top: 20px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.logo {
+    display: flex;
+    flex-grow: 2;
+    justify-content: flex-start;
+}
+
+.logo:hover {
+    font-size: larger;
+    cursor: pointer;
+}
+
+.the-lists {
+    display: flex;
+    flex-grow: 3;
+    justify-content: flex-end;
+}
+
+.list {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.list:hover {
+    font-size: large;
+    cursor: pointer;
+}

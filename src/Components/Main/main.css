@@ -1,0 +1,38 @@
+.main {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.315),  rgba(0, 0, 0, 0.116) ), url(../../Assets/scenery5.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 100vh;   
+    margin-bottom: 30px;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 85%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90vh;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    flex-grow: 1;
+    justify-content: center;
+    max-width: 35vw;
+    
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    flex-grow: 2;
+    justify-content: center;
+    max-width: 65vw;
+    align-items: flex-end;
+}

@@ -1,0 +1,46 @@
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100% !important;
+    justify-content: space-between;
+}
+
+.card1{
+    background-image: url(../../../Assets/scenery1.jpg);
+    background-size: cover;
+    width: 240px;
+    height: 373.95px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.card2{
+    background-image: url(../../../Assets/car1.jpg);
+    background-size: cover;
+    width: 240px;
+    height: 373.95px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.card3{
+    background-image: url(../../../Assets/hotel1.jpg);
+    background-size: cover;
+    width: 240px;
+    height: 373.95px;
+    border-radius: 10px;
+}
+
+.card-content {
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    top: 300px;
+    background-color: rgba(0, 0, 0, 0.388);
+    padding: 16px;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
